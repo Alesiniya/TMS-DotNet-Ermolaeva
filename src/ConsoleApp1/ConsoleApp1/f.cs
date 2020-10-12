@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Homework_5
+namespace ConsoleApp1
 {
-    public class Lion : AnimalBase<int>
+    public class Monkey : AnimalBase<int>
     {
         public void Play()
         {
@@ -12,7 +12,7 @@ namespace Homework_5
         }
         public void Say()
         {
-            Console.WriteLine($"{Name}, RRRRR!");
+            Console.WriteLine($"{Name}, AAAAAA!");
         }
     }
 }

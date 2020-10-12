@@ -4,10 +4,11 @@ using System.Text;
 
 namespace Homework_5
 {
-    public abstract class Animals
+    public abstract class AnimalBase<T>
     {
         public string Name { get; set; }
+        public string Food { get; set; }
 
-        public int Age { get; set; }
+        public T Age { get; set; }
     }
 }

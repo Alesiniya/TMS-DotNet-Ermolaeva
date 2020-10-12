@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Homework_5
+namespace ConsoleApp1
 {
     public class Lion : AnimalBase<int>
     {
@@ -15,4 +15,3 @@ namespace Homework_5
             Console.WriteLine($"{Name}, RRRRR!");
         }
     }
-}
