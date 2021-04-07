@@ -4,12 +4,10 @@ using System.Text;
 
 namespace Homework_5
 {
-    public interface Ido
+    public interface IZooManager
     {
-        void Play ();
+        List<AnimalBase<int>> Animals { get; set; }
+
+        void Show();
     }
-}
-public interface IVoice
-{
-    void Say();
 }

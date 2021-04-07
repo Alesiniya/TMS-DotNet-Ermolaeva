@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Homework_5
 {
-    public class Monkey : Animals, IVoice, Ido
+    public class Monkey : AnimalBase<int>
     {
         public void Play()
         {
@@ -12,7 +12,7 @@ namespace Homework_5
         }
         public void Say()
         {
-            Console.WriteLine($"{Name}, AAAAAA!");
+            Console.WriteLine($"{Name}, AAAA!");
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Homework_5
 {
-    public class Lion : Animals, IVoice, Ido
+    public class Lion : AnimalBase<int>
     {
         public void Play()
         {
